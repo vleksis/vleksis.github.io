@@ -1,4 +1,4 @@
-base_url = "http://vleksis.github.io"
+base_url = "https://vleksis.github.io"
 title = "vleksis"
 description = "An MVP Zola-based blog."
 default_language = "en"
