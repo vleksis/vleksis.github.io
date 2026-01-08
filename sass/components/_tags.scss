@@ -1,0 +1,25 @@
+.tag-list {
+    display: inline-flex;
+    gap: 0.4rem;
+
+    margin: 0;
+    padding: 0;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 0.08rem 0.5rem;
+    border-radius: var(--radius);
+
+    background: var(--tag-bg);
+    color: var(--tag);
+    border-color: var(--tag-border);
+
+    font-size: 0.85rem;
+    line-height: 1.4;
+
+    white-space: nowrap;
+    opacity: 0.9;
+}

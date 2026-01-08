@@ -1,0 +1,11 @@
+{% extends "pages/base.html" %} 
+
+{% block title %}
+    blog | {{ config.title }}
+{% endblock title %}
+
+{% block content %}
+    {% set blog = get_section(path="blog/_index.md") %}
+    {% set posts = blog.pages %}
+    {% include "components/post-list.html" %}
+{% endblock content %}

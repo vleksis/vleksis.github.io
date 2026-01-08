@@ -1,0 +1,23 @@
+base_url = "http://vleksis.github.io"
+title = "vleksis"
+description = "An MVP Zola-based blog."
+default_language = "en"
+
+compile_sass = true
+build_search_index = false
+
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
+taxonomies = [
+  { name = "tags", feed = true }
+]
+
+markdown.highlight_code = true
+markdown.highlight_theme = "base16-ocean-dark"
+
+[extra]
+nav = [
+  { name = "Blog", path = "@/blog/_index.md" },
+  { name = "RSS", path = "rss.xml"}
+]

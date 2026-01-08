@@ -1,0 +1,43 @@
+# --- Zola build output ---
+public/
+# If you use `zola build --output-dir ...`
+dist/
+# If you use drafts/temporary build dirs
+.tmp/
+.cache/
+
+# --- Sass / CSS tooling (if you use node-based tooling) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Optional: generated assets (keep only if you generate these locally) ---
+static/processed/
+static/.cache/
+assets/.cache/
+.sass-cache/
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- OS / misc ---
+Thumbs.db
+
+# --- Rust / build tools (if you have helpers/scripts) ---
+target/
+
+# --- Env / secrets ---
+.env
+.env.*
+!.env.example

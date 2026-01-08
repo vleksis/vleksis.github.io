@@ -1,0 +1,27 @@
+<ul class="post-card-list">
+    {% for post in posts %}
+        <li class="post-card">
+            <a class="post-card-title" href="{{post.permalink | safe}}">
+                {{ post.title }}
+            </a>
+            
+            <div class="post-card-meta">
+                <span class="post-card-date">
+                    {{ post.date | date(format="%Y-%m-%d") }}
+                </span>
+            
+                <ul class="tag-list">
+                    {% for tag in post.taxonomies.tags %}
+                        <li class="tag">
+                            {{ tag }}
+                        </li>
+                    {% endfor %}
+                </ul>        
+            </div>
+            
+            <p class="post-card-description">
+                {{ post.description }}
+            </p>
+        </li>
+    {% endfor %}
+</ul>

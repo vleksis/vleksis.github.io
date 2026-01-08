@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>
+            {% block title %}
+                {{ config.title }}
+            {% endblock title %}
+        </title>
+        <meta name="description" content="{{ config.description }}" />
+        <link rel="stylesheet" href="{{ get_url(path="main.css") }}" />
+    </head>
+
+    <body>
+        <div class="site">
+            {% include "components/site-header.html" %}
+
+            <main class="site-main">
+                {% block content %} {% endblock content %}
+            </main>
+
+            {% include "components/site-footer.html" %}
+        </div>
+    </body>
+</html>

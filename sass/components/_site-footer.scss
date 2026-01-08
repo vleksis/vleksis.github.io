@@ -1,0 +1,47 @@
+.site-footer {
+    border-top: 1px solid var(--border);
+}
+
+.footer-links {
+    max-width: var(--container);
+    margin: 0 auto;
+
+    padding-top: 0.25rem;
+    padding-bottom: 0.75rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 1.25rem;
+
+    list-style: none;
+}
+
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: var(--link);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--link-hover);
+}
+
+.icon {
+    width: 1.05em;
+    height: 1.05em;
+    display: inline-block;
+    background-color: currentColor;
+}
+
+.icon-github {
+    mask-image: url("/icons/github.svg");
+}
+
+.icon-mail {
+    mask-image: url("/icons/mail.svg");
+}

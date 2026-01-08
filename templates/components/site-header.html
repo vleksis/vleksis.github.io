@@ -1,0 +1,17 @@
+<header class="site-header">
+    <div class="site-header-inner">
+        <a class="site-title" href="{{ get_url(path="/") }}">
+            {{ config.title }}
+        </a>
+        
+        <nav class="site-nav">
+            <a class="site-nav-item" href="{{ get_url(path='@/blog/_index.md') }}">
+                Blog
+            </a>
+    
+            <a class="site-nav-item" href="{{ get_url(path='rss.xml') }}">
+                RSS
+            </a>
+        </nav>
+    </div>
+</header>

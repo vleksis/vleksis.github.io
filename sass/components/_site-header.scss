@@ -1,0 +1,39 @@
+.site-header {
+    border-bottom: 2px solid var(--border);
+}
+
+.site-header-inner {
+    max-width: var(--container);
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.site-title {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: var(--title);
+}
+
+.site-title:hover {
+    color: var(--title-hover);
+}
+
+.site-nav {
+    display: flex;
+    gap: 4rem;
+    font-size: 2rem;
+}
+
+.site-nav-item {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.site-nav-item:hover {
+    color: var(--link-hover);
+}
