@@ -1,0 +1,18 @@
+.icon {
+    width: 1.05em;
+    height: 1.05em;
+    display: inline-block;
+    background-color: currentColor;
+}
+
+.icon-github {
+    mask-image: url("/icons/github.svg");
+}
+
+.icon-mail {
+    mask-image: url("/icons/mail.svg");
+}
+
+.icon-calendar {
+    mask-image: url("/icons/calendar.svg");
+}
