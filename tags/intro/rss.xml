@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>vleksis - intro</title>
+      <link>https://vleksis.github.io</link>
+      <description>An MVP Zola-based blog.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://vleksis.github.io/tags/intro/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Hello, Zola</title>
+          <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://vleksis.github.io/blog/hello-zola/</link>
+          <guid>https://vleksis.github.io/blog/hello-zola/</guid>
+          <description xml:base="https://vleksis.github.io/blog/hello-zola/">&lt;p&gt;Welcome. This is your first post.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-this-project-includes&quot;&gt;What this project includes&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A homepage that shows the latest posts&lt;&#x2F;li&gt;
+&lt;li&gt;A blog section with pagination&lt;&#x2F;li&gt;
+&lt;li&gt;Basic styling (light&#x2F;dark via system preference)&lt;&#x2F;li&gt;
+&lt;li&gt;Tags enabled (taxonomy)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;    println!(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Hello, Zola!&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</description>
+      </item>
+    </channel>
+</rss>

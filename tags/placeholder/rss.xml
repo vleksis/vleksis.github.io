@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>vleksis - placeholder</title>
+      <link>https://vleksis.github.io</link>
+      <description>An MVP Zola-based blog.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://vleksis.github.io/tags/placeholder/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Fri, 02 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Second Post Placeholder</title>
+          <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://vleksis.github.io/blog/second-post/</link>
+          <guid>https://vleksis.github.io/blog/second-post/</guid>
+          <description xml:base="https://vleksis.github.io/blog/second-post/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;Replace this with your content.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Keep posts in &lt;code&gt;content&#x2F;blog&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Use TOML front matter between &lt;code&gt;+++&lt;&#x2F;code&gt; fences&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+    </channel>
+</rss>
