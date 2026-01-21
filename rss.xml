@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>vleksis</title>
+      <link>https://vleksis.github.io</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://vleksis.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Beyond the Syllabus</title>
+          <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://vleksis.github.io/blog/beyond-the-syllabus/</link>
+          <guid>https://vleksis.github.io/blog/beyond-the-syllabus/</guid>
+          <description xml:base="https://vleksis.github.io/blog/beyond-the-syllabus/">&lt;h1 id=&quot;pareto&quot;&gt;Pareto&lt;&#x2F;h1&gt;
+&lt;p&gt;Many people have heard of the Pareto principle: &lt;strong&gt;80% of results come from 20% of the effort&lt;&#x2F;strong&gt;.
+While that idea is hard to dispute, I believe the remaining 20% is what truly distinguishes a professional from everyone else.&lt;&#x2F;p&gt;
+&lt;p&gt;Most skills can be “acquired” by completing a university course that lasts about half a year (roughly 90–180 academic hours).
+That may sound like a long time to learn a single skill, but it is nowhere near enough to reach genuine expertise.
+True masters spend years refining abilities that others consider “learned” after just one semester.&lt;&#x2F;p&gt;
+&lt;p&gt;A few examples, to make this less abstract:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Many students can pass an exam in a subject, but far fewer pursue professional training that focuses on that subject in depth.&lt;&#x2F;li&gt;
+&lt;li&gt;All mathematics students are required to study calculus, but only a small fraction read beyond exam-oriented notes.&lt;&#x2F;li&gt;
+&lt;li&gt;Most computer science students learn one or more programming languages, but far fewer become strong software developers.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;knowledge-as-a-graph&quot;&gt;Knowledge as a graph&lt;&#x2F;h1&gt;
+&lt;p&gt;In my view, people have very different mental models of what knowledge is.
+For me, the most useful way to think about it is as a &lt;strong&gt;graph&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vertices&lt;&#x2F;strong&gt; represent axioms, definitions, statements, facts, and similar units of knowledge.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Edges&lt;&#x2F;strong&gt; represent relationships between them: logical implications, dependencies, analogies, and other connections.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;why-focus-on-edges&quot;&gt;Why focus on edges?&lt;&#x2F;h2&gt;
+&lt;p&gt;Edges matter because recognizing &lt;em&gt;structure&lt;&#x2F;em&gt; transfers well.
+If you notice the same pattern of relationships appearing across different topics, you can often reuse that pattern to connect new vertices.
+And when you try to add a new edge, you sometimes discover you are implicitly introducing a vertex you did not realize was missing.&lt;&#x2F;p&gt;
+&lt;p&gt;Some vertices are unreachable from a given set of axioms in a precise formal sense.
+&lt;strong&gt;Gödel’s incompleteness theorems&lt;&#x2F;strong&gt; show that, in sufficiently expressive formal systems, there exist true statements that cannot be proved within the system.
+There are also many vertices that people strongly suspect should be connected, but for which a proof is still unknown.
+In that sense, some “obvious” connections are really failed attempts to force an edge where we do not yet have the machinery to justify it.&lt;&#x2F;p&gt;
+&lt;p&gt;At first glance, this may resemble note-taking systems such as Obsidian, Notion, or even Wikipedia.
+There is overlap, but the concepts are not the same.
+A graph is simply a convenient and expressive model for describing both learning and knowledge accumulation.&lt;&#x2F;p&gt;
+&lt;p&gt;Following this analogy, a classic university course gives you mostly &lt;strong&gt;vertices&lt;&#x2F;strong&gt;.
+In general—setting aside very specialized or advanced courses—programs emphasize commonly taught and heavily examined material.
+After completing a course, you may have &lt;em&gt;many&lt;&#x2F;em&gt; of the right vertices in place.
+But the number and diversity of edges you build in this type of education is often limited.&lt;&#x2F;p&gt;
+&lt;p&gt;A good example is the &lt;strong&gt;Pythagorean theorem&lt;&#x2F;strong&gt;.
+Everybody knows the statement $ a^2 + b^2 = c^2 $, and many remember one or two proofs.
+However, there are hundreds of known proofs, and each of them is an art in its own right — something standard education rarely explores.
+Of course, nobody truly needs that many proofs.
+The point is that a single vertex can support an enormous number of edges.
+Each proof highlights a different relationship: geometric, algebraic, group theory based, and so on.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;university-curriculum&quot;&gt;University curriculum&lt;&#x2F;h1&gt;
+&lt;p&gt;Since I have started criticizing the education system, I should mention other drawbacks.
+What I say here may not apply to education in general.
+It is mostly about my university, MIPT, which, by the way, is considered one of the strongest universities in Russia for applied mathematics and informatics.&lt;&#x2F;p&gt;
+&lt;p&gt;The vast majority of courses I attended consisted of lectures and seminars, as usual.
+A typical lecture follows a familiar pattern: a professor presents material at speed, and students try to keep up.
+The problem is that the material often feels like a sequence of topics rather than an interconnected structure.
+There is little explicit connection between courses, and proofs often seem more &lt;strong&gt;technical&lt;&#x2F;strong&gt; than &lt;strong&gt;illuminating&lt;&#x2F;strong&gt;.
+Even so, they can become intuitive when viewed through a different branch of mathematics.&lt;&#x2F;p&gt;
+&lt;p&gt;Homework can reinforce the same issue.
+Many problem sets rely heavily on standard exercises (for example, endless integral calculations).
+That can make the subject feel superficial and can undermine the motivation to explore it more deeply.&lt;&#x2F;p&gt;
+&lt;p&gt;I also find the classical exam format discouraging.
+You are expected to know every statement in the program and reproduce proofs from memory.
+What is the value of memorizing every proof?
+You spend a few days drilling lecture notes until you remember each symbol.
+In real life—whether in work or research—you can use whatever resources you need.
+Sadly, but I do not have a better alternative to propose, but the current approach just feels misaligned with how understanding is built.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;from-scratch&quot;&gt;From scratch&lt;&#x2F;h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“What I cannot create, I do not understand.”
+— Richard Feynman&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;When I read mathematics books and articles (I consider computer science a branch of mathematics), I enjoy trying to prove statements on my own before reading the author’s solution.
+Even when I fail, I gain experience that increases my chances of solving the next problem.
+It creates an opportunity to reflect on &lt;em&gt;why&lt;&#x2F;em&gt; something is built the way it is—or whether it could be varied to produce different results.
+This technique encourages the spirit of science and research.&lt;&#x2F;p&gt;
+&lt;p&gt;The drawback is obvious.
+It takes much more time than conventional learning.
+Given that time is limited, this is a serious constraint.
+You cannot understand everything from scratch.
+Humanity, as a species, has spent an enormous amount of time reaching the current state of knowledge.&lt;&#x2F;p&gt;
+&lt;p&gt;So you have to choose: prioritize some activities over others, and steadily improve.
+At the same time, I do not think you should place your entire life on the altar of a single skill.
+Find something that genuinely holds your attention right now, give it more time than the syllabus demands, use better resources than the minimum required, and enjoy the process.&lt;&#x2F;p&gt;
+&lt;p&gt;All I want to say is this: do not waste your time chasing perfection just because parents, curriculum designers, or your GPA pressure you to excel at things you do not care about.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Resources</title>
+          <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://vleksis.github.io/blog/resources/</link>
+          <guid>https://vleksis.github.io/blog/resources/</guid>
+          <description xml:base="https://vleksis.github.io/blog/resources/">&lt;h1 id=&quot;blogs&quot;&gt;Blogs&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;matklad.github.io&quot;&gt;matklad&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maheshba.bitbucket.io&#x2F;blog&quot;&gt;mahes’s blog&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+    </channel>
+</rss>
