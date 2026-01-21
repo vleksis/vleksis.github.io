@@ -1,6 +1,5 @@
 base_url = "https://vleksis.github.io"
 title = "vleksis"
-description = "An MVP Zola-based blog."
 default_language = "en"
 
 compile_sass = true
@@ -13,11 +12,14 @@ taxonomies = [
   { name = "tags", feed = true }
 ]
 
-markdown.highlight_code = true
-markdown.highlight_theme = "base16-ocean-dark"
 
 [extra]
 nav = [
   { name = "Blog", path = "@/blog/_index.md" },
   { name = "RSS", path = "rss.xml"}
 ]
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+smart_punctuation = true
