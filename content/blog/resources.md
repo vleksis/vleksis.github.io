@@ -11,4 +11,5 @@ tags = ["none"]
 # Blogs
 
 - [matklad](https://matklad.github.io)
-- [mahes's blog](https://maheshba.bitbucket.io/blog)
+- [mahesh's blog](https://maheshba.bitbucket.io/blog)
+- [Aaron Turon](https://aturon.github.io/)
