@@ -17,13 +17,15 @@
                     {{ page.date | date(format="%Y-%m-%d") }}
                 </span>
                 
-                <span class="tag-list">
-                    {% for tag in page.taxonomies.tags %}
-                        <span class="tag">
-                            {{ tag }}
-                        </span>
-                    {% endfor %}
-                </span>
+                {% if page.taxonomies.tags %}
+                    <span class="tag-list">
+                        {% for tag in page.taxonomies.tags %}
+                            <span class="tag">
+                                {{ tag }}
+                            </span>
+                        {% endfor %}
+                    </span>
+                {% endif %}
             </div>
         </header>
         

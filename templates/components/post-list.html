@@ -11,13 +11,15 @@
                     {{ post.date | date(format="%Y-%m-%d") }}
                 </span>
             
-                <ul class="tag-list">
-                    {% for tag in post.taxonomies.tags %}
-                        <li class="tag">
-                            {{ tag }}
-                        </li>
-                    {% endfor %}
-                </ul>        
+                {% if post.taxonomies.tags %}
+                    <ul class="tag-list">
+                        {% for tag in post.taxonomies.tags %}
+                            <li class="tag">
+                                {{ tag }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </div>
             
             <p class="post-card-description">
