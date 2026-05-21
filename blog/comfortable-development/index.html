@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>
+            
+    Comfortable Development | vleksis
+
+        </title>
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.css">
+        <link rel="stylesheet" href="https://vleksis.github.io/main.css" />
+        
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/contrib/auto-render.min.js"></script>
+        
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".prose").forEach(function (el) {
+              renderMathInElement(el, {
+                delimiters: [
+                  { left: "$$", right: "$$", display: true },
+                  { left: "$",  right: "$",  display: false },
+                  { left: "\\(", right: "\\)", display: false },
+                  { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+              });
+            });
+          });
+        </script>
+
+    </head>
+
+    <body>
+        <div class="site">
+            <header class="site-header">
+    <div class="site-header-inner">
+        <a class="site-title" href="https://vleksis.github.io">
+            vleksis
+        </a>
+        
+        <nav class="site-nav">
+            <a class="site-nav-item" href="https://vleksis.github.io/blog/">
+                Blog
+            </a>
+    
+            <a class="site-nav-item" href="https://vleksis.github.io/rss.xml">
+                RSS
+            </a>
+        </nav>
+    </div>
+</header>
+
+
+            <main class="site-main">
+                
+    <article class="post">
+        <header class="post-info">
+            <h1 class="post-title">
+                Comfortable Development
+            </h1>
+            
+            <div class="post-meta">
+                <span class="post-date">
+                    <span class="icon icon-calendar" aria-hidden="true"></span>
+                    2026-02-10
+                </span>
+                
+                
+            </div>
+        </header>
+        
+        <div class="post-content">
+            <div class="prose">
+                <p>There’s no shortage of material about what software engineers do.
+For open source, you can inspect the entire history: commits, pull requests, issues, design discussions.
+In academia, you can read papers and blog posts explaining ideas in detail.
+In commercial work, you can usually see the final product.</p>
+<p>What’s harder to observe is the workflow behind the output: the tiny defaults and habits that shape daily work.
+How people navigate code, how they make changes safely, how they avoid repeating the same mechanical tasks, how they keep focus.
+Without direct communication, most of those details stay invisible.</p>
+<p>I like experimenting with small changes that feel immediately useful. Most experiments don’t stick.
+But a few habits consistently reduced friction and made development more comfortable for me over the last two years.
+This post is a short list of those habits—nothing revolutionary, just practical.</p>
+<h2 id="vim-and-keyboard-first-workflow">Vim and keyboard-first workflow</h2>
+<p>This isn’t really about Vim itself — it’s about the idea of keyboard-only interaction.
+Vim is just a good representative because it’s popular and many IDEs support Vim keybindings.</p>
+<p>I genuinely like the feeling of not touching the mouse while coding.</p>
+<p>It helps me in a few ways:</p>
+<ul>
+<li>Navigation becomes much faster: you can jump, search, change, and insert with a few keystrokes.</li>
+<li>The touchpad tempts me to scroll, switch contexts, and lose focus.</li>
+<li>Sometimes Vim-like editing is the only practical option (e.g., when SSH-ing into a server to debug, edit configs, or inspect logs).</li>
+</ul>
+<h2 id="scripts">Scripts</h2>
+<p>At some point you notice the pattern:</p>
+<p><code>Up</code>, <code>Up</code>, <code>Up</code>…<br />
+search shell history…<br />
+type the same command again…</p>
+<p>That’s usually the moment to stop doing Sisyphean tasks and automate.</p>
+<p>However I don’t have much more to say yet - I still haven’t found the right tool or language for my own automation setup.
+One rule to mention: don’t preemptively automate everything — it’s easy to spend 10 hours automating a 10-minute task.</p>
+<p>For further reading: <a href="https://matklad.github.io/2026/01/27/make-ts.html">this article by matklad</a></p>
+<h2 id="editing-pipeline">Editing pipeline</h2>
+<p>While reading <a href="https://martinfowler.com/books/refactoring.html">Martin Fowler’s <em>Refactoring</em></a>, I found a simple workflow for changing working code:
+<strong>change -&gt; build -&gt; test -&gt; commit</strong>.</p>
+<p>The idea is to keep changes small and iterative:
+rename a variable, add a parameter, split a function, and so on.</p>
+<p>Once you’ve accumulated a set of small, safe steps (or finished a refactor),
+you can squash them into a single well-named commit (or keep them separate) and push.</p>
+<p>It’s not rocket science, but I didn’t think about using Git that way before.
+Now it’s hard for me to work any other way.</p>
+<h2 id="auto-format-on-save">Auto-format on save</h2>
+<p>Auto-format on save is one of those features that feels small until you get used to it.
+Once it’s enabled, you stop thinking about indentation, wrapping, and small whitespace decisions.
+Your code becomes consistently formatted, diffs get cleaner, and reviews focus more on substance than style.
+I try to treat formatting as a background process: write code, save, let the formatter do its job.</p>
+
+            </div>
+        </div>
+    </article>
+    
+
+            </main>
+
+            <footer class="site-footer">
+    <ul class="footer-links">
+        <li class="footer-item">
+            <a class="footer-link" href="https://github.com/vleksis" rel="me">
+                <span class="icon icon-github" aria-hidden="true"></span>
+                <span>Github</span>
+            </a>
+        </li>
+
+        <li class="footer-item">
+            <a class="footer-link" href="mailto:vleksis@yandex.ru">
+                <span class="icon icon-mail" aria-hidden="true"></span>
+                <span>Get in touch</span>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+        </div>
+    </body>
+</html>
