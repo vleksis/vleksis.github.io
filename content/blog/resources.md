@@ -10,3 +10,4 @@ template = "pages/post.html"
 - [matklad](https://matklad.github.io)
 - [mahesh's blog](https://maheshba.bitbucket.io/blog)
 - [Aaron Turon](https://aturon.github.io/)
+- [Jamie Brandon](https://www.scattered-thoughts.net)
